@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="keys">
+    <div id="A" data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div id="S" data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div id="D" data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div id="F" data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div id="G" data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div id="H" data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div id="J" data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div id="K" data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div id="L" data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+    <div id=";" data-key="186" class="key">
+      <kbd>;</kbd>
+      <span class="sound">trumpet</span>
+    </div>
+  </div>
+
+  <div class="loops">
+    <div id="piano" data-key="90" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">piano loop</span>
+    </div>
+    <div id="dark-guitar" data-key="88" class="key">
+      <kbd>X</kbd>
+      <span class="sound">dark guitar loop</span>
+    </div>
+    <div id="funky-guitar" data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">funk guitar loop</span>
+    </div>
+    <div id="trumpet-loop" data-key="86" class="key">
+      <kbd>V</kbd>
+      <span class="sound">trumpet loop</span>
+    </div>
+    <div id="hit-the-road" data-key="66" class="key">
+      <kbd>B</kbd>
+      <span class="sound">hit the road</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+  <audio data-key="186" src="sounds/trumpet.wav"></audio>
+  <audio loop="true" data-key="90" src="sounds/piano.wav"></audio>
+  <audio loop="true" data-key="88" src="sounds/darkguitar.wav"></audio>
+  <audio loop="true" data-key="67" src="sounds/funkguitar.wav"></audio>
+  <audio loop="true" data-key="86" src="sounds/trumpetloop.wav"></audio>
+  <audio loop="true" data-key="66" src="sounds/hittheroad.wav"></audio>
+
+<script src="./app.js"></script>
+</body>
+</html>
