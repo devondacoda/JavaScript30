@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="google" value="notranslate">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./app.js"></script>
 </head>
 <body>
-
+  <h1>JavaScript Drum Kit</h1>
   <div class="keys">
     <div id="A" data-key="65" class="key">
       <kbd>A</kbd>
@@ -72,23 +74,21 @@
       <span class="sound">hit the road</span>
     </div>
   </div>
-
-  <audio data-key="65" src="sounds/clap.wav"></audio>
-  <audio data-key="83" src="sounds/hihat.wav"></audio>
-  <audio data-key="68" src="sounds/kick.wav"></audio>
-  <audio data-key="70" src="sounds/openhat.wav"></audio>
-  <audio data-key="71" src="sounds/boom.wav"></audio>
-  <audio data-key="72" src="sounds/ride.wav"></audio>
-  <audio data-key="74" src="sounds/snare.wav"></audio>
-  <audio data-key="75" src="sounds/tom.wav"></audio>
-  <audio data-key="76" src="sounds/tink.wav"></audio>
-  <audio data-key="186" src="sounds/trumpet.wav"></audio>
-  <audio loop="true" data-key="90" src="sounds/piano.wav"></audio>
-  <audio loop="true" data-key="88" src="sounds/darkguitar.wav"></audio>
-  <audio loop="true" data-key="67" src="sounds/funkguitar.wav"></audio>
-  <audio loop="true" data-key="86" src="sounds/trumpetloop.wav"></audio>
-  <audio loop="true" data-key="66" src="sounds/hittheroad.wav"></audio>
-
-<script src="./app.js"></script>
+  
+  <audio preload="auto" data-key="65" src="sounds/clap.wav"></audio>
+  <audio preload="auto" data-key="83" src="sounds/hihat.wav"></audio>
+  <audio preload="auto" data-key="68" src="sounds/kick.wav"></audio>
+  <audio preload="auto" data-key="70" src="sounds/openhat.wav"></audio>
+  <audio preload="auto" data-key="71" src="sounds/boom.wav"></audio>
+  <audio preload="auto" data-key="72" src="sounds/ride.wav"></audio>
+  <audio preload="auto" data-key="74" src="sounds/snare.wav"></audio>
+  <audio preload="auto" data-key="75" src="sounds/tom.wav"></audio>
+  <audio preload="auto" data-key="76" src="sounds/tink.wav"></audio>
+  <audio preload="auto" data-key="186" src="sounds/trumpet.wav"></audio>
+  <audio preload="auto" loop="true" data-key="90" src="sounds/piano.wav"></audio>
+  <audio preload="auto" loop="true" data-key="88" src="sounds/darkguitar.wav"></audio>
+  <audio preload="auto" loop="true" data-key="67" src="sounds/funkguitar.wav"></audio>
+  <audio preload="auto" loop="true" data-key="86" src="sounds/trumpetloop.wav"></audio>
+  <audio preload="auto" loop="true" data-key="66" src="sounds/hittheroad.wav"></audio>
 </body>
 </html>

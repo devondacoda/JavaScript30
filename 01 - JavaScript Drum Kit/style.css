@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg) no-repeat center center fixed;
+  background: url(./concert.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 body,html {
@@ -9,10 +9,18 @@ body,html {
   font-family: sans-serif;
 }
 
+h1 {
+ text-align: center;
+ margin-top: 9%;
+ color: white;
+ font-size: 50px;
+ /*font-family: georgia;*/
+}
+
 .keys {
   display: flex;
   flex: 1;
-  margin-top: 25%;
+  margin-top: 6%;
   align-items: center;
   justify-content: center;
 }
